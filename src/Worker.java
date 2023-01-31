@@ -17,7 +17,7 @@ public class Worker {
         for (int i = 0; i < 100; i++) {
 
             if(i == 33) {
-                errorCallback.onError("Task " + i + " is erorr");
+                errorCallback.onError("Task " + i + " is Erorr");
             } else {
                 callback.onDone("Task " + i + " is done");
 
